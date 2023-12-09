@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { off } = require("process");
 
 // template
 // fs.readFile('./file.txt', (err, data) => {
@@ -8,7 +7,7 @@ const { off } = require("process");
 //   }
 
 //   const inputs = data.toString()
-//   const rows = input.split('\n').map((row) => row.trim())
+//   const rows = inputs.split('\n').map((row) => row.trim())
 
 // })
 
